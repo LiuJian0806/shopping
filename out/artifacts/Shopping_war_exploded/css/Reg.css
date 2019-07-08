@@ -1,0 +1,258 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: white;
+	width: 100%;
+	height: 100%;
+}
+/* 头部 */
+#head {
+	height: 10%;
+	position: relative;
+	/* border: 1px solid red; */
+}
+
+/* Logo部分 */
+#Logo {
+	height: 100%;
+	width: 15%;
+	position: absolute;
+	margin-left: 5%;
+	/* border: 1px solid blue; */
+}
+
+#Logo img {
+	height: 100%;
+	width: 100%;
+}
+
+/* 超链接部分 */
+#Super_link {
+	height: 100%;
+	width: 60%;
+	position: absolute;
+	right: 0;
+	/* border: 1px solid blue; */
+}
+
+#head_Super_link {
+	position: relative;
+	height: 50%;
+	/* border: 1px solid red; */
+	margin: 0.9% 0px;
+
+}
+
+#head_Super_link div {
+	position: relative;
+	float: left;
+	margin: 0px 5px;
+	
+}
+
+#head_Super_link img {
+	height: 20px;
+	width: 20px;
+}
+
+#head_Super_link a {
+	text-decoration: none;
+	color: cadetblue;
+}
+#head_Super_link #login{
+	color:red;
+}
+#head_Super_link #reg{
+	font-size: 17px;
+}
+/* middle */
+#middle{
+	position: relative;
+	height: 70%;
+	width: 50%;
+	left: 25%;
+	top: 5%;
+	border: 0.1em solid whitesmoke;
+}
+#reg{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-family: 宋体;
+	font-size: 2em;
+	/* border: 1px solid red; */
+}
+#reg_area{
+	position: relative;
+	width: 50%;
+	height: 80%;
+	left: 25%;
+	top:5%;
+	/* border: 1px solid blue; */
+}
+/* 注册区 */
+#reg_area form{
+	width: 100%;
+	height: 100%;
+}
+/* 输入提示 */
+.reg_tip{
+	position: relative;
+	width:75%;
+	height:5%;
+	font-size:0.4em;
+	font-family: 小篆;
+	text-align:left;
+	left: 25%;
+	/* border: 1px solid red; */
+}
+.reg_tip font{
+	display: none;
+}
+/* 输入 */
+.reg_input{
+	position: relative;
+	width:100%;
+	height: 9%;
+	font-size: 0.7em;
+	text-align: left;
+	color: #696969;
+	/* border: 1px solid gold; */
+}
+.reg_input div{
+	position: relative;
+	float: left;
+}
+.reg_input .input_left{
+	width: 25%;
+	height: 90%;
+	padding-top:1%;
+	text-align: center;
+}
+.reg_input .input_right{
+	width: 74%;
+	height: 96%;
+	border:1px solid gray;
+}
+.reg_input .input_right input{
+	width: 99%;
+	font-size: 0.8em;
+	border: 0px;
+	outline: none;
+}
+/* 验证码 */
+#verification_code_right{
+	width: 40%;
+}
+#verification_img{
+	width: 33%;
+	height: 96%;
+	left: 1%;
+	border:1px solid skyblue;
+}
+#verification_img img{
+	width: 100%;
+	height: 99%;
+}
+/* 阅读条款 */
+#clause{
+	position: relative;
+	width: 89%;
+	height: 6%;
+	left:25%;
+	text-align: left;
+}
+#clause #reg_reading{
+	position: left;
+	float: left;
+	width: 90%;
+	height:70%;
+	font-size: 0.35em;
+	margin-top:3%;
+}
+#clause #reg_reading a{
+	text-decoration: none;
+}
+
+#clause #reg_choose{
+	position: left;
+	float: left;
+	width: 8%;
+	height: 100%;
+}
+#clause #reg_choose input{
+	width:40%;
+	height: 100%;
+}
+/* 提交表单按钮 */
+#submit_button{
+	position: relative;
+	width:50%;
+	height:10%;
+	left: 37%;
+	top:5%;
+}
+#submit_button input{
+	width:100%; 
+	height:100%; 
+	text-align:center; 
+	line-height:40px;  
+	font-size:20px; 
+	border:1px solid #FFF; 
+	border-radius:25px; 
+	display:block; 
+	color:#FFF;
+	background: #6495ED;
+	outline: none;
+}
+/* foot */
+#foot{
+	position: relative;
+	height: 45%;
+	width: 100%;
+	margin-top: 5%;
+	text-align: center;
+	/* border: 1px solid red; */
+}
+#line{
+	border: 1px solid grey;
+	background: gray;
+}
+#website_navigation {
+	position: relative;
+	width: 50%;
+	height:15%;
+	left: 25%;
+	top:8%;
+	margin-bottom: 3%;
+}
+#website_navigation div {
+	position: relative;
+	float: left;
+	margin: 0px 5px;
+}
+
+#website_navigation img {
+	height: 20px;
+	width: 20px;
+}
+
+#website_navigation a {
+	text-decoration: none;
+	color: gray;
+}
+#logo{
+	width: 50%;
+	height: 18%;
+	position: relative;
+	left: 25%;
+}
+#logo img{
+	width: 100%;
+	height: 100%;
+}

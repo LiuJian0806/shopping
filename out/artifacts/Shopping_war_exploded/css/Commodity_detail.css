@@ -1,0 +1,422 @@
+html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+/* 头部 */
+#head {
+	height: 10%;
+	position: relative;
+	background: whitesmoke;
+	/* border: 1px solid red; */
+}
+
+/* Logo部分 */
+#Logo {
+	height: 100%;
+	width: 15%;
+	position: absolute;
+	margin-left: 5%;
+	/* border: 1px solid blue; */
+}
+
+#Logo img {
+	height: 100%;
+	width: 100%;
+}
+
+/* 超链接部分 */
+#Super_link {
+	height: 100%;
+	width: 60%;
+	position: absolute;
+	right: 0;
+	/* border: 1px solid blue; */
+}
+
+#head_Super_link {
+	position: relative;
+	height: 50%;
+	/* border: 1px solid red; */
+	margin: 0.9% 0px;
+
+}
+
+#head_Super_link div {
+	position: relative;
+	float: left;
+	margin: 0px 5px;
+}
+
+#head_Super_link .login_or_reg{
+	display: none;
+}
+/*显示昵称*/
+#head_Super_link .login_or_reg #pet_name{
+
+}
+/*注销*/
+#head_Super_link .login_or_reg #log_off{
+	color: red;
+}
+#head_Super_link img {
+	height: 20px;
+	width: 20px;
+}
+
+#head_Super_link a {
+	text-decoration: none;
+	color: cadetblue;
+}
+#head_Super_link #login{
+	color:red;
+}
+/* 查找 */
+#search{
+	position: relative;
+	width: 100%;
+	height: 20%;
+	/* border: 1px solid red; */
+}
+#search_input{
+	position: relative;
+	width: 50%;
+	height:35%;
+	left:25%;
+	top:30%;
+}
+#search_input #input{
+	position: relative;
+	float: left;
+	padding: 0.1%;
+	width: 88%;
+	height: 89%;
+	border: 3px solid red;
+}
+#search_input input{
+	width: 100%;
+	height: 90%;
+	border: 0;
+	font-family: 隶书;
+	font-size: 2em;
+	outline: none;
+	color:gray;
+}
+#search_input #btn{
+	position: relative;
+	float: left;
+	width: 10%;
+	height: 96%;
+	background: red;
+	text-align: center;
+	padding-top: 0.5%;
+	cursor: pointer;
+	/* border: 1px solid black; */
+}
+#search_input #btn img{
+	width: 55%;
+	height: 90%;
+}
+/* 商品详情 */
+#line{
+	border: 2px solid red;
+	background: red;
+}
+#division{
+	width: 100%;
+	height: 50px;
+	background: darkgrey;
+	font-size: 40px;
+	font-family: 楷体;
+	line-height: 45px;
+	padding-left: 12%;
+}
+.context{
+	position: relative;
+	width: 76%;
+	/* height: 100%; */
+	margin: 0 12%;
+}
+.photo{
+	position: relative;
+	float: left;
+	width: 30%;
+	height: 450px;
+	margin: 1% 1%;
+	border: 1px solid whitesmoke;
+}
+.big_photo{
+	position: relative;
+	width:85%;
+	height: 300px;
+	margin: 0 5%;
+	
+}
+.big_photo img{
+	width: 90%;
+	height: 90%;
+}
+.small_photo{
+	position: relative;
+	width: 17%;
+	height: 120px;
+	margin: 20px 3px;
+	float: left;
+}
+.small_photo img{
+	padding:20% 0;
+	width: 100%;
+	height: 70%;
+}
+.news{
+	position: relative;
+	float: left;
+	margin: 1% 1%;
+	width: 65%;
+	height: 500px;
+	border:  1px solid yellowgreen;
+}
+.book_name{
+	width: 90%;
+	height: 40px;
+	font-family: 楷体;
+	font-size: 35px;
+	padding: 5px 10px;
+	/* background: whitesmoke; */
+}
+.descride{
+	width: 97.2%;
+	height:100px;
+	padding: 5px 10px;
+	background: whitesmoke;
+	text-align: left;
+}
+.descride p{
+	margin: 0;
+	line-height: 30px;
+}
+.publish_news{
+	width: 100%;
+	height: 50px;
+	/* border-top: 1px solid gray; */
+}
+.publish_news div{
+	position: relative;
+	float: left;
+	margin: 15px 20px;
+	font-family: 隶书;
+	font-size: 20px;
+	color: #6495ED;
+}
+.publish_news div a{
+	text-decoration: none;
+	color: #008000;
+}
+.price{
+	width: 100%;
+	height: 150px;
+	background: whitesmoke;
+}
+.price span{
+	position: relative;
+	float: left;
+	font-size: 45px;
+	color: red;
+	margin: 20px 0px 0px 30px;
+}
+.price>span:nth-child(2){
+	font-size: 18px;
+	margin: 55px 0px 0px 10px;
+}
+.price>span:nth-child(3){
+	left: -270px;
+	top: 80px;
+	color: grey;
+	font-family:隶书 ;
+	font-size: 25px;
+	text-decoration:line-through;
+	
+}
+.price>span:nth-child(4){
+	font-size: 18px;
+	font-family: 楷体;
+	text-align: center;
+	color: grey;
+	top: 20px;
+	left: -50px;
+}
+.price>span:nth-child(4) p{
+	font-size: 28px;
+	margin: 15px 0 0 0 ;
+	color: #2E8B57;
+}
+
+.buy_news{
+	width: 100%;
+	height: 100px;
+	margin: 20px 0 0 0;
+}
+.buy_news>div{
+	position: relative;
+	float: left;
+	border: 1px solid red;
+	margin: 10px 0 0 20px;
+	height: 40px;
+}
+.buy_news>div:first-child{
+	width: 80px;
+	border: 2px solid whitesmoke;
+}
+.buy_news>div>div {
+	position: relative;
+	left: 55px;
+	top:-40px;
+	width: 25px;
+	height: 40px;
+	background: whitesmoke;
+}
+.buy_news>div>div>div{
+	width: 100%;
+	height: 50%;
+}
+
+.buy_news>div>div>div img{
+	width: 90%;
+	height: 100%;
+}
+.buy_news div:first-child input{
+	width: 40px;
+	height: 38px;
+	border: 0;
+	outline-style: none;
+	font-size: 20px;
+}
+/* 去掉number的默认上下箭头 谷歌浏览器*/
+.buy_news div:first-child input::-webkit-outer-spin-button,
+.buy_news div:first-child input::-webkit-inner-spin-button{
+	-webkit-appearance: none !important;
+}
+/* 火狐浏览器 */
+.buy_news div:first-child input{
+	-moz-appearance: textfield;
+}
+.buy_news>div:not(:first-child){
+	font-size: 25px;
+	font-family: 楷体;
+	border-radius: 4px;
+	line-height: 40px;
+	cursor: pointer;
+}
+.buy_news>div:nth-child(2){
+	background: red;
+}
+.buy_news>div:nth-child(3){
+	border: 1px solid pink;
+	background: pink;
+}
+.buy_news>div:nth-child(4){
+	border: 1px solid skyblue;
+	background: skyblue;
+}
+
+/* 展示图片 */
+.show_photo{
+	position: relative;
+	float: left;
+	width: 100%;
+	/*border: 1px solid red;*/
+}
+.show_photo img{
+	width: 95%;
+	height: 95%;
+}
+/* #######################################################尾部 ###########################################*/
+ #foot {
+	position: relative;
+	float: left;
+ 	height: 70%;
+ 	text-align: center;
+	top:200px;
+ 	/*border: 1px solid red;*/
+ }
+ #foot_img{
+ 	height:13%;
+ 	width:100%;
+ 	/* border: 1px solid red; */
+ }
+ #foot_img img {
+ 	width: 100%;
+ 	height: 100%;
+ }
+ 
+ #foot_other {
+ 	position: relative;
+ 	height: 25%;
+ 	width: 60%;
+ 	left: 22%;
+	top: 8%;
+ 	/* border: 1px solid blue; */
+ }
+ 
+ #foot_other table {
+ 	height: 100%;
+ 	width: 100%;
+ }
+ 
+ #foot_other table thead {
+ 	font-size: 1.4em;
+ 	color: dimgrey;
+ }
+ 
+ #foot_other a {
+ 	text-decoration: none;
+ 	color: dimgrey;
+ }
+ 
+ #foot #foot_line{
+	position: relative;
+	top: 10%;
+ 	border: 1px solid grey;
+ 	background: gray;
+ }
+ #website_navigation {
+ 	position: relative;
+ 	width: 50%;
+ 	height:8%;
+ 	left: 25%;
+ 	top:12%;
+ 	margin-bottom: 5%;
+	/* border: 1px solid red; */
+ }
+ #website_navigation div {
+ 	position: relative;
+ 	float: left;
+ 	margin: 0px 5px;
+ }
+ 
+ #website_navigation img {
+ 	height: 15px;
+ 	width: 20px;
+ }
+ 
+ #website_navigation a {
+ 	text-decoration: none;
+ 	color: gray;
+ }
+ #logo{
+ 	width: 50%;
+ 	height: 12%;
+ 	position: relative;
+ 	left: 25%;
+ }
+ #logo img{
+ 	width: 100%;
+ 	height: 100%;
+ }

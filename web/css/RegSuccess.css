@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    background: dimgrey;
+}
+div{
+    position: relative;
+    margin: 200px auto;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    font-family: 楷体;
+    font-size: 25px;
+    color: darkseagreen;
+    background:skyblue;
+}
+p{
+    position: center;
+    line-height: 300px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: red;
+}

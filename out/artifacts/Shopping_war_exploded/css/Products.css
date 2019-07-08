@@ -1,0 +1,455 @@
+html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+/* ################################################头部 ############################################*/
+#head {
+	height: 10%;
+	position: relative;
+	background: whitesmoke;
+	/* border: 1px solid red; */
+}
+
+/* Logo部分 */
+#Logo {
+	height: 100%;
+	width: 15%;
+	position: absolute;
+	margin-left: 5%;
+	/* border: 1px solid blue; */
+}
+
+#Logo img {
+	height: 100%;
+	width: 100%;
+}
+
+/* 超链接部分 */
+#Super_link {
+	height: 100%;
+	width: 60%;
+	position: absolute;
+	right: 0;
+	/* border: 1px solid blue; */
+}
+
+#head_Super_link {
+	position: relative;
+	height: 50%;
+	/* border: 1px solid red; */
+	margin: 0.9% 0px;
+
+}
+
+#head_Super_link div {
+	position: relative;
+	float: left;
+	margin: 0px 5px;
+	
+}
+
+#head_Super_link img {
+	height: 20px;
+	width: 20px;
+}
+
+#head_Super_link a {
+	text-decoration: none;
+	color: cadetblue;
+}
+#head_Super_link #login{
+	color:red;
+}
+
+/*############################################ 查找 #########################################*/
+#search{
+	position: relative;
+	width: 100%;
+	height: 20%;
+	/* border: 1px solid red; */
+}
+#search_input{
+	position: relative;
+	width: 50%;
+	height:35%;
+	left:25%;
+	top:30%;
+}
+#search_input #input{
+	position: relative;
+	float: left;
+	padding: 0.1%;
+	width: 88%;
+	height: 89%;
+	border: 3px solid red;
+}
+#search_input input{
+	width: 100%;
+	height: 90%;
+	border: 0;
+	font-family: 隶书;
+	font-size: 2em;
+	outline: none;
+	color:grey;
+}
+#search_input #btn{
+	position: relative;
+	float: left;
+	width: 10%;
+	height: 96%;
+	background: red;
+	text-align: center;
+	padding-top: 0.5%;
+	cursor: pointer;
+	/* border: 1px solid black; */
+}
+#search_input #btn img{
+	width: 55%;
+	height: 90%;
+}
+/* ############################################导航栏##################################################### */
+#navigation{
+	position: relative;
+	width: 74.5%;
+	height: 5%;
+	margin: 0 auto;
+}
+
+#navigation_line{
+	position: relative;
+	border: 2px solid red;
+}
+#navigation #classify_head{
+	position: relative;
+	width: 18%;
+	height: 90%;
+	font-family:宋体;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	background: red;
+}
+#navigation #contain{
+	position: relative;
+	width: 18%;
+	height: 1000%;
+	display: none;
+	background:whitesmoke;
+	z-index: 9999;
+}
+#navigation #contain>div{
+	position: relative;
+	width:92%;
+	height: 5%;
+	margin-top:2%;
+	padding: 0 3%;
+	font-size: 15px;
+	text-align: center;
+	font-family: 宋体;
+	z-index: 9999;
+}
+/* *****************************全部商品************************* */
+#commodity_all{
+	position: relative;
+	width: 74.5%;
+	/*height: 2%;*/
+	margin: auto;
+	/* border: 1px solid red; */
+}
+#commodity_all #commodity_head{
+	position: relative;
+	width: 100%;
+	height:50px;
+	background: gainsboro;
+}
+#commodity_all #commodity_left{
+	position: relative;
+	float: left;
+	width:75%;
+	/*height: 0.1%;*/
+	/* border: 1px solid blue; */
+}
+#commodity_all #commodity_right{
+	position: relative;
+	float: right;
+	width: 24.5%;
+	height:0.1%;
+	/* border: 1px solid gray; */
+}
+#commodity_all #commodity_left >ul{
+	list-style: none;
+	width: 100%;
+	/*height: 100%;*/
+}
+#commodity_all #commodity_left > ul .li{
+	position: relative;
+	left:-5%;
+	width:100%;
+	height: 250px;
+	 /*border: 1px solid red;*/
+	top:-2.1%;
+}
+#commodity_all #commodity_right > ul{
+	list-style: none;
+	width: 100%;
+	/*height: 100%;*/
+}
+#commodity_all #commodity_right > ul>li{
+	position: relative;
+	left:-15%;
+	width:100%;
+	height:320px;
+	/* border: 1px solid red; */
+	top:-2.1%;
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+#commodity_all #commodity_left > ul .li div:first-child{
+	position: relative;
+	float: left;
+	width:20%;
+	height: 88%;
+	margin: 1.5% 2%;
+	border: 1px solid whitesmoke;
+}
+#commodity_all #commodity_left > ul .li div:last-child{
+	position: relative;
+	float:right;
+	width:74.5%;
+	height: 88%;
+	margin: 1.5% 0%;
+	/* border: 1px solid black; */
+}
+#commodity_all #commodity_left > ul .li div:first-child img{
+	width: 100%;
+	height: 90%;
+}
+#commodity_all #commodity_left > ul .li div:last-child font{
+	position: relative;
+	font-size: 1.11em;
+	font-family: 楷体;
+}
+#commodity_all #commodity_left > ul .li div:last-child a{
+	text-decoration: none;
+	color: #0000FF;
+}
+#commodity_all #commodity_left > ul .li div:last-child .price{
+	position: relative;
+	float: left;
+	width: 100%;
+	padding: 1% 0;
+	font-size: 1.2em;
+	/* border: 1px solid red; */
+}
+#commodity_all #commodity_left > ul .li div:last-child .price .old_price{
+	font-size: 0.8em;
+	color: #696969;
+}
+#commodity_all #commodity_left > ul .li div:last-child .price .old_price font{
+	text-decoration: line-through;
+}
+#commodity_all #commodity_left > ul .li div:last-child .publish_information{
+	font-size: 1em;
+	font-family: 楷体;
+}
+#commodity_all #commodity_left > ul .li div:last-child .descride{
+	font-size: 1.2em;
+	font-family: 隶书;
+	color: #696969;
+}
+#commodity_all #commodity_left > ul .li div:last-child span:nth-last-of-type(2){
+	position: relative;
+	float: left;
+	width: 23%;
+	height: 18%;
+	left: 10%;
+	margin-right: 2%;
+	top: 5%;
+	font-size: 1.5em;
+	font-family: 小篆;
+	text-align: center;
+	color: white;
+	background: red;
+	border: 0.0625em solid red;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius:5px;
+	cursor: pointer;
+}
+#commodity_all #commodity_left > ul .li div:last-child span:nth-last-of-type(1){
+	position: relative;
+	float: left;
+	width: 20%;
+	height: 18%;
+	left: 10%;
+	top: 5%;
+	font-size: 1.5em;
+	font-family: 小篆;
+	color: white;
+	text-align: center;
+	background: pink;
+	border: 0.0625em solid pink;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius:5px;
+	cursor: pointer;
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+#commodity_all #commodity_right > ul #commodity_right_head{
+	height: 300000%;
+	font-family: 宋体;
+	background: darkgrey;
+	font-size: 1.8em;
+}
+#commodity_all #commodity_right > ul #commodity_right_head div{
+	position: relative;
+	float: right;
+	bottom: -30%;
+	color: whitesmoke;
+	font-size: 0.5em;
+	width: 12%;
+	height: 45%;
+	border:1px solid wheat;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius:2px;
+}
+#commodity_all #commodity_right > ul>li div:first-child{
+	clear: both;
+	position: relative;
+	width: 88%;
+	height:60%;
+	margin: 2% 5%;
+	border: 1px solid whitesmoke;
+}
+#commodity_all #commodity_right > ul>li div:last-child{
+	position: relative;
+	width: 88%;
+	height:31%;
+	margin: 2% 5%;
+	/* border: 1px solid whitesmoke; */
+}
+#commodity_all #commodity_right > ul>li div:first-child img{
+	width: 100%;
+	height: 100%;
+}
+#commodity_all #commodity_right > ul>li div:last-child span:nth-child(1){
+	font-family: 楷体;
+	font-size: 0.95em;
+}
+#commodity_all #commodity_right > ul>li div:last-child span:nth-child(1) a{
+	text-decoration: none;
+	color: black;
+}
+#commodity_all #commodity_right > ul>li div:last-child span:nth-child(2){
+	color: red;
+}
+#commodity_all #commodity_right > ul>li div:last-child span:nth-child(3){
+	position: relative;
+	float: left;
+	font-size: 1.2em;
+	color: red;
+}
+#commodity_all #commodity_right > ul>li div:last-child .little_logo{
+	position: relative;
+	float: left;
+	top: 28%;
+	margin: 0 2%;
+	left: -10%;
+	background: red;
+	font-family: 楷体;
+	color: white;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius:2px;
+}
+/* #######################################################尾部 ###########################################*/
+ #foot {
+	position: relative;
+	 float: left;
+ 	height: 500px;
+ 	text-align: center;
+ 	 /*border: 1px solid red; */
+ }
+ #foot_img{
+ 	height:13%;
+ 	width:100%;
+ 	/* border: 1px solid red; */
+ }
+ #foot_img img {
+ 	width: 100%;
+ 	height: 100%;
+ }
+ 
+ #foot_other {
+ 	position: relative;
+ 	height: 25%;
+ 	width: 60%;
+ 	left: 22%;
+	top: 8%;
+ 	/* border: 1px solid blue; */
+ }
+ 
+ #foot_other table {
+ 	height: 100%;
+ 	width: 100%;
+ }
+ 
+ #foot_other table thead {
+ 	font-size: 1.4em;
+ 	color: dimgrey;
+ }
+ 
+ #foot_other a {
+ 	text-decoration: none;
+ 	color: dimgrey;
+ }
+ 
+ #foot #foot_line{
+	position: relative;
+	top: 10%;
+ 	border: 1px solid grey;
+ 	background: gray;
+ }
+ #website_navigation {
+ 	position: relative;
+ 	width: 50%;
+ 	height:8%;
+ 	left: 25%;
+ 	top:12%;
+ 	margin-bottom: 5%;
+	/* border: 1px solid red; */
+ }
+ #website_navigation div {
+ 	position: relative;
+ 	float: left;
+ 	margin: 0px 5px;
+ }
+ 
+ #website_navigation img {
+ 	height: 15px;
+ 	width: 20px;
+ }
+ 
+ #website_navigation a {
+ 	text-decoration: none;
+ 	color: gray;
+ }
+ #logo{
+ 	width: 50%;
+ 	height: 12%;
+ 	position: relative;
+ 	left: 25%;
+ }
+ #logo img{
+ 	width: 100%;
+ 	height: 100%;
+ }
+ 

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录成功</title>
+    <link rel="stylesheet" href="../css/LoginSuccess.css">
+    <script>
+        window.onload = function (ev) {
+            alert(document.cookie);
+            document.getElementsByTagName("a").click(function () {
+                window.location.href = "Reg.html";
+            });
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <p>登录成功!<a href="Reg.html">注销</a></p>
+    </div>
+</body>
+</html>

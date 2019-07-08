@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>商品详情</title>
+		<link rel="stylesheet" type="text/css" href="../css/Products.css"/>
+		<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/Tools.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/Products.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!-- head -->
+		<div id="head">
+			<div id="Logo"><img src="../img/Logo.png" ></div>
+			<div id="Super_link">
+				<div id="head_Super_link">
+<!--					<div id="login_or_reg"><font>欢迎光临，请<a href="Login.html" id="login">登录 </a><a href="Reg.html" id="reg">成为会员</a></font></div>-->
+					<div class="login_or_reg" id="off_line"><font>欢迎光临，请<a href="Login.html" id="login">登录 </a><a href="Reg.html" id="reg">成为会员</a></font></div>
+					<div class="login_or_reg" id="on_line"><font>欢迎你，<a href="#" id="pet_name"></a><a href="javascript:void(0)" id="log_off">&nbsp;注销&nbsp;</a></font></div>
+					<div class="img"><img src="../img/Shopping_cart.png"></div>
+					<div class="a"><a href="#">购物车</a></div>
+					<div class="img"><img src="../img/line.png"></div>
+					<div class="a"><a href="#">我的订单</a></div>
+					<div class="img"><img src="../img/line.png"></div>
+					<div class="a"><a href="#">个人中心</a></div>
+					<div class="img"><img src="../img/line.png"></div>
+					<div class="a"><a href="#">商品分类</a></div>
+					<div class="img"><img src="../img/line.png"></div>
+					<div class="a"><a href="#">收藏夹</a></div>
+					<div class="img"><img src="../img/line.png"></div>
+					<div class="a"><a href="#">联系客服</a></div>
+					<div class="img"><img src="../img/line.png"></div>
+					<div class="a"><a href="../">回到首页</a></div>		
+				</div>
+			</div>
+		</div>
+		<!-- search -->
+		<!-- 查找 -->
+		<div id="search">
+			<div id="search_input">
+				<div id="input">
+					<input type="text" name="" id="" placeholder="书名/作者" />
+				</div>
+				<div id="btn">
+					<img src="../img/search.png" >
+				</div>
+			</div>
+		</div>
+		
+		<!-- 导航栏栏 -->
+		<div id="navigation">
+			<div id="navigation_line"></div>
+			<div id="classify_head">全部分类</div>
+			<div id="contain">
+				<div id="classics"><font>经典著作 · 哲学类</font></div>
+				<div id="social_sciences"><font>社会科学 · 政治法律</font></div>
+				<div id="Political_and_legal"><font>军事科学 · 财经管理</font></div>
+				<div id="historical geography"><font>历史地理 · 文化教育</font></div>
+				<div id="Primary school education"><font>小学文教 · 初中文教</font></div>
+				<div id="High school education"><font>高中文教 · 语言文字</font></div>
+				<div id="Chinese Literature"><font>中国文学 · 外国文学</font></div>
+				<div id="Art sculpture"><font>音乐 · 美术雕塑</font></div>
+				<div id="Photography film and television"><font>摄影影视 · 舞蹈戏剧</font></div>
+				<div id="Calligraphy engraved"><font>书法镌刻 · 自然科学</font></div>
+				<div id="Mathematical chemistry"><font>数理化学 · 医药卫生</font></div>				
+				<div id="Agricultural Science"><font>农业科学 · 工业技术</font></div>				
+				<div id="Leisure life"><font>生活休闲 · 少儿读物</font></div>				
+				<div id="computer technology"><font>计算机技术 · 建筑工程</font></div>				
+				<div id="Import of books"><font>进口图书 · 进口图书</font></div>	
+			</div>
+		</div>
+		
+		<!-- 展示搜索商品 -->
+		<div id="commodity_all">
+			<div id="commodity_head"></div>
+			<div id="commodity_left">
+				<ul>
+<!--					<li class="li">-->
+<!--						<div class="left">-->
+<!--							<img src="../img/book/201906051825.jpg" >-->
+<!--						</div>-->
+<!--						<div class="right">-->
+<!--							<font><a href="#">李清照词传 有一种消遣叫，浪费；有一种幸福叫，简单；有一种生活叫，文艺。</a></font><br>-->
+<!--							<span class="price"><font color="red">￥288.90</font><font class="old_price">&nbsp;定价<font>￥358.00</font>(7.91折)</font></span>-->
+<!--							<font size="" color=""></font>-->
+<!--							<font class="publish_information"><a href="#">随园散人</a>著，<a href="#">交通社出品，有容书邦 发行</a>/2016-12-01/<a href="#">人民出版社</a></font><br>-->
+<!--							<font class="descride">1.用敏感细腻的笔触描写著名词人李清照的一生。 2.使用详尽的资料，挑选精美的诗词。 3.李清照的人生波折，以及她与其他词人之间的关系，尽在此书中。-->
+<!--							 4.爱宋词，尤其爱李清照的人不容错过。 特别推荐：</font><br>-->
+<!--							 <span class="add_shopping_cart">加入购物车</span><span class="enshrine">收藏</span>-->
+<!--						</div>-->
+<!--					</li>-->
+				</ul>
+			</div>
+			<div id="commodity_right">
+				<ul>
+					<li id="commodity_right_head">
+						推广商品
+						<div>广告</div>
+					</li>
+					<li>
+						<div><img src="../img/book/201906051825.jpg" ></div>
+						<div>
+							<span><a href="#">李清照词传&nbsp;李清照&nbsp;仓央嘉措&nbsp;李煜</a></span>
+							<span>中国文学古诗词传散文诗歌鉴赏</span>
+							<span>￥46.80</span>
+							<span class="little_logo">拼团</span>
+							<span class="little_logo">赠品</span>
+						</div>
+					</li>
+					<li>
+						<div><img src="../img/book/201906051825.jpg" ></div>
+						<div>
+							<span><a href="#">李清照词传&nbsp;李清照&nbsp;仓央嘉措&nbsp;李煜</a></span>
+							<span>中国文学古诗词传散文诗歌鉴赏</span>
+							<span>￥46.80</span>
+							<span class="little_logo">拼团</span>
+							<span class="little_logo">赠品</span>
+						</div>
+					</li>
+					<li>
+						<div><img src="../img/book/201906051825.jpg" ></div>
+						<div>
+							<span><a href="#">李清照词传&nbsp;李清照&nbsp;仓央嘉措&nbsp;李煜</a></span>
+							<span>中国文学古诗词传散文诗歌鉴赏</span>
+							<span>￥46.80</span>
+							<span class="little_logo">拼团</span>
+							<span class="little_logo">赠品</span>
+						</div>
+					</li>
+					<li>
+						<div><img src="../img/book/201906051825.jpg" ></div>
+						<div>
+							<span><a href="#">李清照词传&nbsp;李清照&nbsp;仓央嘉措&nbsp;李煜</a></span>
+							<span>中国文学古诗词传散文诗歌鉴赏</span>
+							<span>￥46.80</span>
+							<span class="little_logo">拼团</span>
+							<span class="little_logo">赠品</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- foot -->
+		<div id="foot">
+			<div style="border: 2px solid crimson; width: 1518px;"></div>
+			<div id="foot_img">
+				<img src="../img/font.jpg" >
+			</div>
+			<div id="foot_other">
+				<table border="0px" cellspacing="0" cellpadding="0">
+					<thead>
+						<tr>
+							<td>购物指南</td>
+							<td>支付方式</td>
+							<td>订单服务</td>
+							<td>配送方式</td>
+							<td>退换货</td>
+							<td>商家服务</td>
+						</tr>	
+					</thead>
+					<tbody>
+						<tr>
+							<td><a href="#">购物流程</a></td>
+							<td><a href="#">货到付款</a></td>
+							<td><a href="#">配送服务查询</a></td>
+							<td><a href="#">当日递</a></td>
+							<td><a href="#">退换货服务查询</a></td>
+							<td><a href="#">商家中心</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">发票制度</a></td>
+							<td><a href="#">网上支付</a></td>
+							<td><a href="#">订单状态说明</a></td>
+							<td><a href="#">次日达</a></td>
+							<td><a href="#">自助申请退换货</a></td>
+							<td><a href="#">运营服务</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">服务协议</a></td>
+							<td><a href="#">礼品卡支付</a></td>
+							<td><a href="#">自助取消订单</a></td>
+							<td><a href="#">订单自提</a></td>
+							<td><a href="#">退换货进度查询</a></td>
+							<td><a href="#">加入尾品汇</a></td>
+						</tr>
+						<tr>
+							<td><a href="#">会员优惠</a></td>
+							<td><a href="#">银行转账</a></td>
+							<td><a href="#">自助修改订单</a></td>
+							<td><a href="#">验货与签收</a></td>
+							<td><a href="#">退款方式和时间</a></td>
+							<td><a href="#"></a></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div id="foot_line"></div>
+			<div id="website_navigation">
+				<div class="a"><a href="#">公司简介</a></div>
+				<div class="img"><img src="../img/line.png"></div>
+				<div class="a"><a href="#">诚聘英才</a></div>
+				<div class="img"><img src="../img/line.png"></div>
+				<div class="a"><a href="#">手机找书</a></div>
+				<div class="img"><img src="../img/line.png"></div>
+				<div class="a"><a href="#">网站联盟</a></div>
+				<div class="img"><img src="../img/line.png"></div>
+				<div class="a"><a href="#">网站招商</a></div>
+				<div class="img"><img src="../img/line.png"></div>
+				<div class="a"><a href="#">机构销售</a></div>
+				<div class="img"><img src="../img/line.png"></div>
+				<div class="a"><a href="#">官方Blog</a></div>
+			</div>
+			<p>Copyright (C) 找本书网 2004-2017, All Rights Reserved</p>
+			<p><a href="http://www.baidu.com" style="text-decoration: none;">京ICP证041189号</a>   |   出版物经营许可证 新出发京批字第直0673号   |   食品流通许可证：SP1101011010021855(1-1)</p>
+			<p>互联网药品信息服务资格证编号：(京)-非经营性-2012-0016   |   京公网安备110101000001号</p>
+			<div id="logo">
+				<img src="../img/logo.JPG" >
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,407 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	background: url("../img/37.jpg");
+}
+
+.head {
+	position: absolute;
+	height: 100px;
+	width: 100%;
+}
+.greeting{
+	position: relative;
+	float: right;
+	right: 80px;
+	top:5px;
+	color: #6495ED;
+	font-family: 隶书;
+	font-size: 25px;
+}
+.menu {
+	position: relative;
+	float: left;
+	left: 380px;
+	margin: 70px 0 0 20px;
+	width: 80px;
+	height: 30px;
+	font-size: 18px;
+	font-family: 楷体;
+	line-height: 30px;
+	text-align: center;
+	background: #A9A9A9;
+	cursor: pointer;
+	border: 1px solid bisque;
+}
+
+.title {
+	position: relative;
+	float: left;
+	left: 20px;
+	width: 600px;
+	height: 100px;
+	font-size: 50px;
+	font-family: 宋体;
+	color: skyblue;
+	line-height: 100px;
+	text-shadow: blue 0.1em 0.1em 0.2em
+}
+
+.line {
+	position: relative;
+	top: 100px;
+	background: blanchedalmond;
+	border: 5px solid blanchedalmond;
+}
+
+.context {
+	position: relative;
+	float: left;
+	height: 640px;
+	top: 100px;
+	/* border: 1px solid red; */
+}
+
+#left {
+	width: 300px;
+}
+
+#middle_line {
+	width: 10px;
+	background: #808080;
+}
+
+#right {
+	width: 1150px;
+}
+
+/* left */
+.nav {
+	list-style: none;
+	width: 300px;
+	font-size: 25px;
+	font-family: 楷体;
+	/* margin: 100px auto; */
+	border: 1px solid #000;
+	border-top: none;
+	cursor: pointer;
+}
+
+.nav>li {
+	border: 1px solid #000;
+	line-height: 35px;
+	border-bottom: none;
+	text-indent: 2em;
+	position: relative;
+}
+
+/* .nav>li:last-child{
+				border-bottom: 1px solid #000;
+				border-bottom-right-radius: 10px;
+				border-bottom-left-radius: 10px;
+			} */
+/* .nav>li:first-child{
+				border-top-right-radius: 10px;
+				border-top-left-radius: 10px;
+			} */
+.nav>li>span {
+	background: url(../img/arrow_right.png) no-repeat center center;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	right: 30px;
+	top: 5px;
+	/* background: #000000; */
+}
+
+.sub {
+	display: none;
+}
+
+.sub>li {
+	list-style: none;
+	background: mediumpurple;
+	border-bottom: 1px solid white;
+}
+
+.sub>li:hover {
+	background: red;
+}
+
+.nav>.current>span {
+	transform: rotate(90deg);
+}
+
+.add_commodity_title {
+	position: relative;
+	float: left;
+	font-size: 35px;
+	font-family: 楷体;
+	left: 500px;
+	/* border: 1px solid red; */
+}
+
+/* 添加商品 */
+.commodify_detail {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.photo {
+	position: relative;
+	top: 50px;
+	height: 200px;
+	/* border: 1px solid red; */
+}
+
+.commodify_photo {
+	position: relative;
+	width: 100px;
+	float: left;
+	font-size: 20px;
+	left: -140px;
+}
+
+.photoes {
+	position: relative;
+	float: left;
+	width: 160px;
+	left: -140px;
+	margin: 0 0 0 20px;
+	height: 150px;
+	/* border: 1px solid gainsboro; */
+}
+
+.photoes img {
+	width: 100%;
+	height: 100%;
+	background: url(../img/404.jpg) no-repeat;
+	background-size:100% 100%;
+	-webkit-appearance: none;
+	appearance: none;
+}
+
+.picture {
+	position: relative;
+	width: 1150px;
+	height: 150px;
+	/* border: 1px solid gainsboro; */
+}
+
+.btn_file {
+	position: relative;
+	width: 1150px;
+}
+
+.btn_file div {
+	position: relative;
+	float: left;
+	/* border: 1px solid red; */
+	margin: 0 0 0 20px;
+	left: 100px;
+}
+
+.btn_file div input {
+	width: 160px;
+	font-family: 隶书;
+	background:bisque;
+}
+
+.detail {
+	position: relative;
+	top: 50px;
+	width: 1150px;
+	height: 200px;
+	/* border: 1px solid blue; */
+}
+.detail div:nth-child(1){
+	position: relative;
+	top: -30px;
+	width: 100px;
+	height: 25px;
+	font-size: 20px;
+}
+.detail div:nth-child(2){
+	position: relative;
+	float: left;
+	width: 250px;
+	height: 150px;
+	/* border: 1px solid goldenrod; */
+}
+.detail span{
+	position: relative;
+	float: left;
+	height: 30px;
+	font-size: 17px;
+	font-family: 隶书;
+	margin-right: 15px;
+	line-height: 25px;
+	/* border: 1px solid yellow; */
+}
+.detail span:nth-child(1){
+	left: 10px;
+	width: 80px;
+}
+.detail textarea{
+	resize: none;
+	overflow:hidden;
+	width: 150px;
+	height: 150px;
+}
+
+.detail div:nth-child(3){
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 30px;
+	margin:0 10px 20px 20px;
+	/* border: 1px solid red; */
+}
+.detail div:nth-child(3) span{
+	width: 56px;
+}
+.detail div:nth-child(3) input{
+	height: 28px;
+	font-family: 楷体;
+	font-size: 20px;
+}
+.detail div:nth-child(4){
+	position: relative;
+	float: left;
+	margin:0 10px 20px 20px;
+	width: 350px;
+	height: 30px;
+	/* border: 1px solid red; */
+}
+.detail div:nth-child(4) span{
+	width: 90px;
+}
+.detail div:nth-child(4) input{
+	height: 28px;
+	font-family: 楷体;
+	font-size: 20px;
+}
+.detail div:nth-child(5){
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 30px;
+	margin:0 10px 20px 20px;
+	/* border: 1px solid red; */
+}
+.detail div:nth-child(5) span{
+	width: 56px;
+}
+.detail div:nth-child(5) input{
+	height: 28px;
+	font-family: 楷体;
+	font-size: 20px;
+}
+.detail div:nth-child(6){
+	position: relative;
+	float: left;
+	width: 350px;
+	height: 30px;
+	margin:0 10px 20px 20px;
+	/* border: 1px solid red; */
+}
+.detail div:nth-child(6) span{
+	width: 90px;
+}
+.detail div:nth-child(6) input{
+	height: 28px;
+	font-family: 楷体;
+	font-size: 20px;
+}
+.detail div:nth-child(7){
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 30px;
+	margin:0 10px 20px 20px;
+	/* border: 1px solid red; */
+}
+.detail div:nth-child(7) span{
+	width: 56px;
+}
+.detail div:nth-child(7) input{
+	height: 28px;
+	font-family: 楷体;
+	font-size: 20px;
+}
+.price{
+	position: relative;
+	width: 1120px;
+	height: 100px;
+	top: 50px;
+	/* border: 1px solid violet; */
+}
+.price span{
+	position: relative;
+	float: left;
+	height: 30px;
+	font-size: 17px;
+	font-family: 隶书;
+	margin-right: 15px;
+	line-height: 25px;
+	/* border: 1px solid yellow; */
+}
+.price div:nth-child(1){
+	position: relative;
+	width: 100px;
+	height: 25px;
+	font-size: 20px;	
+}
+.price div:nth-child(2){
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 30px;
+	margin:10px 10px 20px 20px;
+	/* border: 1px solid red; */
+}
+.price div:nth-child(2) span{
+	width: 56px;
+}
+.price div:nth-child(2) input{
+	height: 28px;
+	font-family: 楷体;
+	font-size: 20px;
+}
+.price div:nth-child(3){
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 30px;
+	margin:10px 10px 20px 20px;
+	/* border: 1px solid red; */
+}
+.price div:nth-child(3) span{
+	width: 56px;
+}
+.price div:nth-child(3) input{
+	height: 28px;
+	font-family: 楷体;
+	font-size: 20px;
+}
+.photo>div:nth-last-child(1){
+	position: relative;
+	float: right;
+	width: 200px;
+	height: 40px;
+	top:50px;
+	right: 50px;
+}
+.photo>div:nth-last-child(1) input{
+	width: 200px;
+	height: 40px;
+	background: #87CEEB;
+}

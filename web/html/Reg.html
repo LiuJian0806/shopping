@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>用户注册</title>
+		<c:set value = "${pageContext.request.contextPath}" var="path" scope="page" />
+		<link rel="stylesheet" type="text/css" href="../css/Reg.css"/>
+		<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/Reg.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="head">
+			<div id="Logo"><img src="../img/Logo.png" ></div>
+			<div id="Super_link">
+				<div id="head_Super_link">
+					<div id="login_or_reg"><font>欢迎光临，请<a href="Login.html" id="login">登录 </a><a href="#" id="reg">成为会员</a></font></div>
+					<div class="img"><img src="../img/Shopping_cart.png"></div>
+					<div class="a"><a href="#">购物车</a></div>
+					<div class="img"><img src="../img/line.png"></div>
+					<div class="a"><a href="#">我的订单</a></div>
+					<div class="img"><img src="../img/line.png"></div>
+					<div class="a"><a href="#">个人中心</a></div>
+					<div class="img"><img src="../img/line.png"></div>
+					<div class="a"><a href="#">商品分类</a></div>
+					<div class="img"><img src="../img/line.png"></div>
+					<div class="a"><a href="#">收藏夹</a></div>
+					<div class="img"><img src="../img/line.png"></div>
+					<div class="a"><a href="#">联系客服</a></div>
+					<div class="img"><img src="../img/line.png"></div>
+					<div class="a"><a href="#">网站导航</a></div>		
+				</div>
+			</div>
+		</div>
+		<div id="middle">
+			<div id="reg">
+				<font>新用户注册</font>
+				<div id="reg_area">
+					<form action="javascript:;" method="post" onsubmit="return check()">
+						<div class="reg_input" id="pet_name">
+							<div id="pet_name_left" class="input_left">昵&nbsp;&nbsp;称</div><div id="pet_name_right" class="input_right"><input type="text" name="pet_name" id="" placeholder="请输入昵称"/></div>
+						</div>
+						<div class="reg_tip" id="pet_name_tip"><font>昵称由2-6位中英文组成</font></div>
+						<div class="reg_input" id="phone">
+							<div id="phone_left" class="input_left">手机号码</div><div id="phone_right" class="input_right"><input type="text" name="phone" id="" placeholder="请输入手机号码"/></div>
+						</div>
+						<div class="reg_tip" id="phone_tip"><font>手机号用于客户登录、找回密码、接收订单通知等</font></div>
+						<div class="reg_input" id="password">
+							<div id="password_left" class="input_left">登录密码</div><div id="password_right" class="input_right"><input type="password" name="password" id="" placeholder="请设置登录密码"/></div>
+						</div>
+						<div class="reg_tip" id="password_tip"><font>密码由6-20位字符，可有英文、数字及符号组成</font></div>
+						<div class="reg_input" id="repassword">
+							<div id="repassword_left" class="input_left">确认密码</div><div id="repassword_right" class="input_right"><input type="password" name="repassword" id="" placeholder="请再次输入密码"/></div>
+						</div>
+						<div class="reg_tip" id="repassword_tip"><font>请再次输入密码</font></div>
+						<div class="reg_input" id="verification_code">
+							<div id="verification_code_left" class="input_left">验证码</div>
+							<div id="verification_code_right" class="input_right">
+								<input type="text" name="verification_code" id="" placeholder="请输入验证码"/>
+							</div>
+							<div id="verification_img">
+								<img src="../img/security_code/uwv6.jpg" >
+							</div>
+						</div>
+						<div class="reg_tip" id="verification_code_tip"><font>请输入验证码</font></div>
+						<div id="clause">
+							<div id="reg_choose">
+								<input type="checkbox" name="clause" id="" />
+							</div>
+							<div id="reg_reading">
+								<font>我已阅读并同意<a href="http://www.biying.com">《找本书交易条款》</a>和<a href="http://www.biying.com">《找本书社区条款》</a><font>
+							</div>
+						</div>
+						<div id="submit_button">
+							<input type="submit" value="立即注册"/>
+						</div>
+						
+					</form>
+				</div>
+			</div>
+		</div>
+		<div id="foot">
+			<div id="line"></div>
+			<div id="website_navigation">
+				<div class="a"><a href="#">公司简介</a></div>
+				<div class="img"><img src="../img/line.png"></div>
+				<div class="a"><a href="#">诚聘英才</a></div>
+				<div class="img"><img src="../img/line.png"></div>
+				<div class="a"><a href="#">手机找书</a></div>
+				<div class="img"><img src="../img/line.png"></div>
+				<div class="a"><a href="#">网站联盟</a></div>
+				<div class="img"><img src="../img/line.png"></div>
+				<div class="a"><a href="#">网站招商</a></div>
+				<div class="img"><img src="../img/line.png"></div>
+				<div class="a"><a href="#">机构销售</a></div>
+				<div class="img"><img src="../img/line.png"></div>
+				<div class="a"><a href="#">官方Blog</a></div>
+			</div>
+			<p>Copyright (C) 找本书网 2004-2017, All Rights Reserved</p>
+			<p><a href="http://www.baidu.com" style="text-decoration: none;">京ICP证041189号</a>   |   出版物经营许可证 新出发京批字第直0673号   |   食品流通许可证：SP1101011010021855(1-1)</p>
+			<p>互联网药品信息服务资格证编号：(京)-非经营性-2012-0016   |   京公网安备110101000001号</p>
+			<div id="logo">
+				<img src="../img/logo.JPG" >
+			</div>
+			
+		</div>
+	</body>
+</html>

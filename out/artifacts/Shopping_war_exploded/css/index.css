@@ -1,0 +1,363 @@
+html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+/* 头部 */
+#head {
+	height: 10%;
+	position: relative;
+	background: whitesmoke;
+	/* border: 1px solid red; */
+}
+
+/* Logo部分 */
+#Logo {
+	height: 100%;
+	width: 15%;
+	position: absolute;
+	margin-left: 5%;
+	/* border: 1px solid blue; */
+}
+
+#Logo img {
+	height: 100%;
+	width: 100%;
+}
+
+/* 超链接部分 */
+#Super_link {
+	height: 100%;
+	width: 60%;
+	position: absolute;
+	right: 0;
+	/* border: 1px solid blue; */
+}
+
+#head_Super_link {
+	position: relative;
+	height: 50%;
+	/* border: 1px solid red; */
+	margin: 0.9% 0px;
+
+}
+
+#head_Super_link div {
+	position: relative;
+	float: left;
+	margin: 0px 5px;
+}
+
+#head_Super_link .login_or_reg{
+	display: none;
+}
+/*显示昵称*/
+#head_Super_link .login_or_reg #pet_name{
+
+}
+/*注销*/
+#head_Super_link .login_or_reg #log_off{
+	color: red;
+}
+#head_Super_link img {
+	height: 20px;
+	width: 20px;
+}
+
+#head_Super_link a {
+	text-decoration: none;
+	color: cadetblue;
+}
+#head_Super_link #login{
+	color:red;
+}
+/* 查找 */
+#search{
+	position: relative;
+	width: 100%;
+	height: 20%;
+	/* border: 1px solid red; */
+}
+#search_input{
+	position: relative;
+	width: 50%;
+	height:35%;
+	left:25%;
+	top:30%;
+}
+#search_input #input{
+	position: relative;
+	float: left;
+	padding: 0.1%;
+	width: 88%;
+	height: 89%;
+	border: 3px solid red;
+}
+#search_input input{
+	width: 100%;
+	height: 90%;
+	border: 0;
+	font-family: 隶书;
+	font-size: 2em;
+	outline: none;
+	color:gray;
+}
+#search_input #btn{
+	position: relative;
+	float: left;
+	width: 10%;
+	height: 96%;
+	background: red;
+	text-align: center;
+	padding-top: 0.5%;
+	cursor: pointer;
+	/* border: 1px solid black; */
+}
+#search_input #btn img{
+	width: 55%;
+	height: 90%;
+}
+
+/* select_advertise */
+#select_advertise{
+	position: relative;
+	width: 100%;
+	height: 75%;
+	/* border: 1px solid red; */
+}
+#select_advertise #line{
+	position: relative;
+	background:red;
+	border: 2px solid red;
+}
+
+#select_advertise #context{
+	position: relative;
+	width: 80%;
+	height: 100%;
+	left:10%;
+}
+/* 整体布局 */
+#select_advertise #left{
+	position: relative;
+	float: left;
+	width: 20%;
+	height:99%;
+	/* border: 1px solid blue; */
+}
+#select_advertise #middle{
+	position: relative;
+	float: left;
+	width: 58%;
+	height:99%;
+	/* background: #0000FF; */
+	/* border: 1px solid yellow; */
+}
+#select_advertise #right{
+	position: relative;
+	float: left;
+	width: 20%;
+	height:99%;
+	/* border: 1px solid green; */
+}
+/* left */
+#select_advertise #left div{
+	width: 77%;
+	height: 5%;
+	padding: 0.8% 10%;
+	cursor: pointer;
+	/* border: 1px solid red; */
+}
+#select_advertise #left #classify{
+	padding: 0 0;
+	width: 100%;
+	height: 7%;
+	font-family: 宋体;
+	font-size: 25px;
+	text-align: center;
+	background: red;
+	color: white;
+}
+/* middle */
+#select_advertise #middle #up{
+	position: relative;
+	width: 100%;
+	height: 60%;
+	/* border: 1px solid blue; */
+}
+#select_advertise #middle #up img{
+	width: 100%;
+	height: 100%;
+}
+#select_advertise #middle #down{
+	position: relative;
+	width: 100%;
+	height: 40%;
+	/* border: 1px solid yellow; */
+}
+#select_advertise #middle #down img{
+	width: 100%;
+	height: 100%;
+}
+#select_advertise #middle #down div{
+	position: relative;
+	float: left;
+	width: 24.5%;
+	height: 100%;
+	/* border: 1px solid bisque; */
+}
+/* right */
+#select_advertise #right img{
+	width: 100%;
+	height: 100%;
+}
+
+ /* second_select */
+ #second_select{
+	position: relative;
+	width: 79%;
+	height: 75%;
+	left:10%;
+	top:5%;
+	/* background: whitesmoke; */
+	/* border: 1px solid hotpink; */
+ }
+ #second_select #second_select_head{
+	height: 8%;
+	width: 100%;
+	padding: 0;
+ }
+ #second_select #second_select_head img{
+	 width: 8%;
+	 height: 90%;
+ }
+ #second_select #second_select_line{
+	 height: 0;
+	 width: 100%;
+	 padding: 0;
+	 border: 2px solid black;
+ }
+ #second_select > div{
+	 position: relative;
+	 float: left;
+	 width: 15.9%;
+	 height: 44%;
+	 padding: 0.3%;
+	 /* border: 1px solid navajowhite; */
+ }
+ #second_select .photo{
+	 position: relative;
+	 width: 100%;
+	 height: 70%;
+	 /* border: 1px solid red; */
+ }
+ #second_select .photo img{
+	 width: 100%;
+	 height: 100%;
+ }
+ #second_select .message{
+	 position: relative;
+	 text-align: center;
+	 font-family:小篆;
+	 width: 100%;
+	 height: 30%;
+	 /* border: 1px solid navajowhite; */
+ }
+ #second_select .now_price{
+	 color: red;
+ }
+ #second_select .original_price{
+	 color: gray;
+	 text-decoration: line-through;
+ }
+ 
+ /* foot */
+ /* 尾部 */
+ #foot {
+	position: relative;
+ 	height: 70%;
+ 	text-align: center;
+	top: 10%;
+ 	/* border: 1px solid red; */
+ }
+ #foot_img{
+ 	height:13%;
+ 	width:100%;
+ 	/* border: 1px solid red; */
+ }
+ #foot_img img {
+ 	width: 100%;
+ 	height: 100%;
+ }
+ 
+ #foot_other {
+ 	position: relative;
+ 	height: 25%;
+ 	width: 60%;
+ 	left: 22%;
+ 	/* border: 1px solid blue; */
+ }
+ 
+ #foot_other table {
+ 	height: 100%;
+ 	width: 100%;
+ }
+ 
+ #foot_other table thead {
+ 	font-size: 1.4em;
+ 	color: dimgrey;
+ }
+ 
+ #foot_other a {
+ 	text-decoration: none;
+ 	color: dimgrey;
+ }
+ 
+ #foot #foot_line{
+	position: relative;
+	top: 8%;
+ 	border: 1px solid grey;
+ 	background: gray;
+ }
+ #website_navigation {
+ 	position: relative;
+ 	width: 50%;
+ 	height:8%;
+ 	left: 25%;
+ 	top:12%;
+ 	margin-bottom: 5%;
+	/* border: 1px solid red; */
+ }
+ #website_navigation div {
+ 	position: relative;
+ 	float: left;
+ 	margin: 0px 5px;
+ }
+ 
+ #website_navigation img {
+ 	height: 15px;
+ 	width: 20px;
+ }
+ 
+ #website_navigation a {
+ 	text-decoration: none;
+ 	color: gray;
+ }
+ #logo{
+ 	width: 50%;
+ 	height: 12%;
+ 	position: relative;
+ 	left: 25%;
+ }
+ #logo img{
+ 	width: 100%;
+ 	height: 100%;
+ }
+ 

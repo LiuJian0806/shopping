@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background: url(../img/Login_ad.png) no-repeat;
+    background-size: 1920px 1680px;
+}
+
+.Logo {
+    position: absolute;
+    width: 350px;
+    height: 120px;
+    left: 575px;
+    top: 60px;
+}
+
+.Logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.LoginArea {
+    position: absolute;
+    left: 550px;
+    top: 200px;
+    width: 400px;
+    height: 250px;
+    border: 2px solid whitesmoke;
+
+}
+
+#span {
+    position: relative;
+    left: 130px;
+    top: 10px;
+    font-family: 楷体;
+    font-size: 25px;
+}
+
+.LoginArea > div {
+    position: relative;
+    top: 30px;
+    left: 50px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid gainsboro;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-family: 楷体;
+
+}
+
+.LoginArea div div {
+    position: relative;
+    float: left;
+}
+
+.tip {
+    width: 80px;
+    height: 40px;
+    line-height: 35px;
+    /* border: 1px solid brown; */
+}
+
+.input {
+    width: 212px;
+    height: 40px;
+
+    /* border: 1px solid red; */
+}
+
+.input input {
+    width: 218px;
+    height: 38px;
+    font-size: 16px;
+    border: 0;
+    outline: none;
+    opacity: 0.8;
+}
+
+#login_btn input {
+    width: 300px;
+    height: 40px;
+    background: ghostwhite;
+    font-size: 25px;
+    font-family: 楷体;
+    letter-spacing: 0px;
+    text-align: center;
+    opacity: 0.8;
+
+}
+
+#forget_password {
+    position: relative;
+    font-family: 楷体;
+    font-size: 20px;
+    float: right;
+    right: 50px;
+    top: 10px;
+    color: #6495ED;
+    cursor: pointer;
+}

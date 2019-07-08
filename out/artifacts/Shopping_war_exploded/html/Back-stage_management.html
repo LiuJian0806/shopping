@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>网站管理系统</title>
+		<link rel="stylesheet" type="text/css" href="../css/Back-stage_management.css"/>
+		<script src="../js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/Tools.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/Back-stage_management.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="head">
+			<span class="greeting"></span>
+			<span class="title">FIND BOOK 后台管理系统</span>
+			<div class="menu">首页</div>
+			<div class="menu">修改密码</div>
+			<div class="menu">管理员</div>
+			<div class="menu">流量统计</div>
+			<div class="menu">退出登录</div>
+		</div>
+		<div class="line"></div>
+		<div class="context" id="left">
+			<ul class="nav">
+				<li>参数设置<span></span>
+					<ul class="sub">
+						<li>商城信息设置</li>
+						<li>系统参数设置</li>
+						<li>商城广告设置</li>
+						<li>送货邮编设置</li>
+						<li>送货方式设置</li>
+						<li>汇款方式设置</li>
+						<li>浮动价格设置</li>
+						<li>其他信息设置</li>
+						<li>文字友情链接</li>
+						<li>LOGO图片链接</li>
+					</ul>
+				</li>
+				<li>商品管理<span></span>
+					<ul class="sub">
+						<li>商品资料添加</li>
+						<li>所有商品管理</li>
+						<li>商品缺货提醒</li>
+						<li>会员订单管理</li>
+						<li>匿名订单管理</li>
+						<li>电话订单添加</li>
+						<li>电话订单管理</li>
+						<li>团购批发管理</li>
+						<li>商品评论管理</li>
+						<li>销售统计报表</li>
+					</ul>
+				</li>
+				<li>信息管理<span></span>
+					<ul class="sub">
+						<li>首页新闻添加</li>
+						<li>首页新闻管理</li>
+						<li>商城专题添加</li>
+						<li>商城专题管理</li>
+						<li>商城投票添加</li>
+					</ul>
+				</li>
+				<li>敬请期待<span></span>
+					<ul class="sub">
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+					</ul>
+				</li>
+				<li>敬请期待<span></span>
+					<ul class="sub">
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+					</ul>
+				</li>
+				<li>敬请期待<span></span>
+					<ul class="sub">
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+					</ul>
+				</li>
+				<li>敬请期待<span></span>
+					<ul class="sub">
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+					</ul>
+				</li>
+				<li>敬请期待<span></span>
+					<ul class="sub">
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+						<li>敬请期待</li>
+					</ul>
+				</li>
+			</ul>
+	
+		</div>
+		<div class="context" id="middle_line"></div>
+		<div class="context" id="right">
+			<div class="commodify_detail">
+				<form action="javascript:" enctype="multipart/form-data" method="post">
+					<span class="add_commodity_title">添加商品</span>
+					<div class="photo">
+						<span class="commodify_photo">商品图片：</span>
+						<div class="picture">
+							<div class="photoes" ><img src="" /></div>
+							<div class="photoes" ><img src="" /></div>
+							<div class="photoes" ><img src="" /></div>
+							<div class="photoes" ><img src="" /></div>
+							<div class="photoes" ><img src="" /></div>
+						</div>
+						<div class="btn_file">
+							<div><input type="file" name="file_1" id="1"></div>
+							<div><input type="file" name="file_2" id="2"></div>
+							<div><input type="file" name="file_3" id="3"></div>
+							<div><input type="file" name="file_4" id="4"></div>
+							<div><input type="file" name="file_5" id="5"></div>
+						</div>
+						<!-- 详情 -->
+						<div class="detail">
+							<div>商品详情:</div>
+							<div>
+								<span>商品描述:</span>
+								<textarea onpropertychange="if(value.length>100) value=value.substr(0,100)" name="descride" ></textarea>
+							</div>
+							<div>
+								<span>书名：</span>
+								<input type="text" name="book_name" id="book_name" value="" />
+							</div>
+							<div>
+								<span>出版社：</span>
+								<input type="text" name="book_publish" id="book_publish" value="" />
+							</div>
+							<div>
+								<span>作者：</span>
+								<input type="text" name="book_author" id="book_author" value="" />
+							</div>
+							<div>
+								<span>出版日期：</span>
+								<input type="text" name="book_public_time" id="book_publish_time" value="" />
+							</div>
+							<div>
+								<span>ISBN：</span>
+								<input type="text" name="book_ISBN" id="book_ISBN" value="" />
+							</div>
+						</div>
+						<div class="price">
+							<div>价格信息：</div>
+							<div>
+								<span>现价：</span>
+								<input type="text" name="new_price" id="new_price" value="" />
+							</div>
+							<div>
+								<span>原价：</span>
+								<input type="text" name="old_price" id="old_price" value="" />
+							</div>
+						</div>
+						<div>
+							<input class="submit" type="button" name="" id="" value="提交" />
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

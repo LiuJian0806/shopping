@@ -1,0 +1,291 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: white;
+}
+
+/* 头部 */
+#head {
+	height: 80px;
+	position: relative;
+	/* border: 1px solid red; */
+}
+
+/* Logo部分 */
+#Logo {
+	height: 80px;
+	width: 300px;
+	position: absolute;
+	margin-left: 50px;
+	/* border: 1px solid blue; */
+}
+
+#Logo img {
+	height: 80px;
+	width: 200px;
+}
+
+/* 超链接部分 */
+#Super_link {
+	height: 80px;
+	width: 750px;
+	position: absolute;
+	right: 0px;
+	/* border: 1px solid blue; */
+}
+
+#head_Super_link {
+	position: relative;
+	height: 50px;
+	/* border: 1px solid red; */
+	margin: 5px 0px;
+
+}
+
+#head_Super_link div {
+	position: relative;
+	float: left;
+	margin: 0px 5px;
+}
+
+#head_Super_link img {
+	height: 20px;
+	width: 20px;
+}
+
+#head_Super_link a {
+	text-decoration: none;
+	color: cadetblue;
+}
+
+/* 中部 */
+#middle {
+	height: 600px;
+	position: relative;
+	/* border: 1px solid red; */
+}
+
+#Login_ad {
+	width: 600px;
+	height: 600px;
+	position: absolute;
+	left: 200px;
+	/* border: 1px solid yellow; */
+}
+
+#Login_ad img {
+	width: 100%;
+	height: 100%;
+}
+
+#Login_window {
+	width: 350px;
+	height: 500px;
+	position: absolute;
+	top: 50px;
+	right: 150px;
+	text-align: center;
+	border: 3px solid ghostwhite;
+}
+
+#Login_window_tip {
+	width: 350px;
+	height: 50px;
+	margin: 10px 0;
+}
+
+.Login {
+	width: 320px;
+	height: 40px;
+	position: relative;
+	left: 15px;
+	border: 1px solid black;
+}
+
+.Login_Icon {
+	height: 24px;
+	width: 24px;
+	position: relative;
+	float: left;
+	padding: 3px;
+	top: 5px;
+	/* border: 1px solid red; */
+}
+
+.Login img {
+	width: 100%;
+	height: 100%;
+}
+
+.Login_Input {
+	height: 35px;
+	width: 250px;
+	position: relative;
+	float: left;
+	top: 5px;
+	left: 6px;
+}
+
+.Login input {
+	font-size: 18px;
+	width: 250px;
+	height: 30px;
+	border: 0px;
+	outline: none;
+}
+
+.Login_tip {
+	text-align: left;
+	position: relative;
+	width: 320px;
+	height: 30px;
+	left: 15px;
+	/* border: 1px solid red; */
+}
+
+#security_code {
+	width: 335px;
+	height: 100px;
+	/* border: 1px solid red; */
+	text-align: left;
+	position: relative;
+	padding-left: 15px;
+}
+
+#Input_sec_code {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 35px;
+	margin-top: 10px;
+	margin-right: 5px;
+	border: 1px solid black;
+}
+
+#show_security_img {
+	position: relative;
+	float: left;
+	margin-top: 10px;
+	width: 150px;
+	height: 70px;
+	margin-left: 10px;
+}
+
+#security_img {
+	width: 150px;
+	height: 50px;
+}
+
+#sec_code {
+	font-size: 18px;
+	width: 145px;
+	height: 30px;
+	border: 0px;
+	outline: none;
+}
+
+#tip_security{
+	position: relative;
+	width: 150px;
+	height: 20px;
+	top:-32px;
+	font-size: 13px;
+	color: grey;
+	clear: both;
+}
+#tip_security font{
+	display: none;
+}
+
+#Login_action {
+	/* border: 1px solid lawngreen; */
+}
+
+#forget_password {
+	position: relative;
+	width: 100px;
+	height: 30px;
+	/* border: 1px solid red; */
+	left: 250px;
+}
+
+#forget_password a {
+	text-decoration: none;
+	color: skyblue;
+}
+
+#Login_submit {
+	width: 320px;
+	height: 50px;
+	/* border: 1px solid gold; */
+	position: relative;
+	margin: 5px 15px;
+}
+
+#Login_action input {
+	background: paleturquoise;
+	font-size: 30px;
+	width: 100%;
+	height: 100%;
+}
+
+#reg_now {
+	width: 100px;
+	height: 30px;
+	position: relative;
+	left: 250px;
+}
+
+#reg_now a {
+	text-decoration: none;
+	color: seagreen;
+}
+#administrator_login{
+	width: 150px;
+	height: 30px;
+	position: relative;
+	font-size: 20px;
+	top:20px;
+}
+#administrator_login a{
+	text-decoration: none;
+	color:cornflowerblue;
+}
+/* 尾部 */
+#foot {
+	height: 400px;
+	text-align: center;
+	/* border: 1px solid red; */
+}
+#foot_img{
+	height: 70px;
+	width: 1518px;
+	/* border: 1px solid red; */
+}
+#foot_img img {
+	width: 100%;
+	height: 100%;
+}
+
+#foot_other {
+	position: relative;
+	height: 180px;
+	width: 900px;
+	left: 350px;
+	/* border: 1px solid blue; */
+}
+
+#foot_other table {
+	height: 150px;
+	width: 900px;
+}
+
+#foot_other table thead {
+	font-size: 20px;
+	color: dimgrey;
+}
+
+#foot_other a {
+	text-decoration: none;
+	color: dimgrey;
+}

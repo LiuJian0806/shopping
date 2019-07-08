@@ -1,0 +1,444 @@
+html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+/* 头部 */
+#head {
+	height: 10%;
+	position: relative;
+	background: whitesmoke;
+	/* border: 1px solid red; */
+}
+
+/* Logo部分 */
+#Logo {
+	height: 100%;
+	width: 15%;
+	position: absolute;
+	margin-left: 5%;
+	/* border: 1px solid blue; */
+}
+
+#Logo img {
+	height: 100%;
+	width: 100%;
+}
+
+/* 超链接部分 */
+#Super_link {
+	height: 100%;
+	width: 60%;
+	position: absolute;
+	right: 0;
+	/* border: 1px solid blue; */
+}
+
+#head_Super_link {
+	position: relative;
+	height: 50%;
+	/* border: 1px solid red; */
+	margin: 0.9% 0px;
+
+}
+
+#head_Super_link div {
+	position: relative;
+	float: left;
+	margin: 0px 5px;
+}
+
+#head_Super_link .login_or_reg{
+	display: none;
+}
+/*显示昵称*/
+#head_Super_link .login_or_reg #pet_name{
+
+}
+/*注销*/
+#head_Super_link .login_or_reg #log_off{
+	color: red;
+}
+#head_Super_link img {
+	height: 20px;
+	width: 20px;
+}
+
+#head_Super_link a {
+	text-decoration: none;
+	color: cadetblue;
+}
+#head_Super_link #login{
+	color:red;
+}
+/* 查找 */
+#search{
+	position: relative;
+	width: 100%;
+	height: 20%;
+	/* border: 1px solid red; */
+}
+#search_input{
+	position: relative;
+	width: 50%;
+	height:35%;
+	left:25%;
+	top:30%;
+}
+#search_input #input{
+	position: relative;
+	float: left;
+	padding: 0.1%;
+	width: 88%;
+	height: 89%;
+	border: 3px solid red;
+}
+#search_input input{
+	width: 100%;
+	height: 90%;
+	border: 0;
+	font-family: 隶书;
+	font-size: 2em;
+	outline: none;
+	color:gray;
+}
+#search_input #btn{
+	position: relative;
+	float: left;
+	width: 10%;
+	height: 96%;
+	background: red;
+	text-align: center;
+	padding-top: 0.5%;
+	cursor: pointer;
+	/* border: 1px solid black; */
+}
+#search_input #btn img{
+	width: 55%;
+	height: 90%;
+}
+/* 内容 */
+#line{
+	width: 100%;
+	height: 5px;
+	background: red;
+	border: 1px solid red;
+}
+.context{
+	position: relative;
+	float: left;
+	width: 76%;
+	margin: 0 12%;
+}
+.context div{
+	position: relative;
+	float: left;
+	/* border: 1px solid black; */
+}
+.context .memu{
+	width: 20%;
+	height: 600px;
+	background: whitesmoke;
+}
+.context .memu ul{
+	
+}
+.context .memu ul>li{
+	list-style: none;
+	line-height: 38px;
+	font-family: 楷体;
+	font-size: 20px;
+	cursor: pointer;
+}
+.context .memu ul li:first-child{
+	color: red;
+	font-size: 25px;
+}
+.context .detail{
+	width: 75%;
+	/* height: 800px; */
+}
+.context .detail .detail_head{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 30px;
+	background: gainsboro;
+	font-size: 22px;
+	font-family:楷体;
+}
+.context .detail .shopping_cart{
+	position: relative;
+	float: left;
+	width: 100%;	
+}
+.context .detail .shopping_cart .table_head{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 40px;
+}
+.context .detail .shopping_cart .table_head>div{
+	position: relative;
+	float: left;
+	margin: 5px 0 0 10px;
+	border: 0;
+}
+.context .detail .shopping_cart .table_head div:first-child{
+	width: 10px;
+	height: 10px;
+	margin: 10px 0 0 10px;
+	border: 1px solid grey;
+}
+.context .detail .shopping_cart .table_head div:first-child img{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	display: block;
+}
+.context .detail .shopping_cart .table_head div:nth-child(3){
+	width: 45%;
+	margin-left: 50px;
+}
+.context .detail .shopping_cart .table_head div:nth-child(4){
+	width: 10%;
+}
+.context .detail .shopping_cart .table_head div:nth-child(5){
+	width: 10%;
+}
+.context .detail .shopping_cart .table_head div:nth-child(6){
+	width: 10%;
+}
+/* 商品 */
+.context .commodity{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 150px;
+	margin: 10px 0 0 0 ;
+}
+.context .commodity>div{
+	position: relative;
+	float: left;
+	margin: 5px 0 0 5px;
+}
+.context .commodity>div:first-child{
+	width: 10px;
+	height: 10px;
+	margin: 10px 0 0 10px;
+	border: 1px solid gray;
+}
+.context .commodity>div:first-child img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.context .commodity>div:nth-child(2){
+	width: 52%;
+	height: 95%;
+}
+.context .commodity>div:nth-child(2) .picture{
+	position: relative;
+	float: left;
+	width: 30%;
+	height: 95%;
+}
+.context .commodity>div:nth-child(2) .picture img{
+	width: 100%;
+	height: 100%;
+}
+.context .commodity>div:nth-child(2) .descride{
+	position: relative;
+	float: left;
+	width: 70%;
+	height: 95%;
+	font-size: 16px;
+	font-family: 楷体;
+}
+.context .commodity>div:nth-child(2) .descride .book_descride{
+	font-size: 13px;
+}
+.context .commodity>div:nth-child(3){
+	width: 12%;
+	height: 95%;
+}
+.context .commodity>div:nth-child(3) span:first-child{
+	position: relative;
+	float: left;
+	margin-top: 35px;
+	font-size: 25px;
+	font-family: 隶书;
+	color: red;
+}
+.context .commodity>div:nth-child(3) span:last-child{
+	position: relative;
+	float: left;
+	margin-top: 25px;
+	font-size: 18px;
+	color: #808080;
+	font-family: 楷体;
+	text-decoration: line-through;
+}
+.context .commodity>div:nth-child(4){
+	width: 10%;
+	height: 95%;
+}
+.context .commodity>div:nth-child(4) div{
+	border: 0;
+}
+.context .commodity>div:nth-child(4)>div{
+	position: relative;
+	width: 70px;
+	top: 45px;
+	left: 5px;
+	border: 2px solid whitesmoke;
+}
+.context .commodity>div:nth-child(4)>div>div{
+	position: relative;
+	left: 50px;
+	width: 20px;
+	height: 40px;
+	background: whitesmoke;
+}
+.context .commodity>div:nth-child(4)>div>div>div{
+	position: relative;
+	width: 100%;
+	height: 50%;
+}
+.context .commodity>div:nth-child(4)>div>div img{
+	width: 90%;
+	height: 100%;
+}
+.context .commodity>div:nth-child(4) input{
+	width: 40px;
+	height: 38px;
+	border: 0;
+	outline-style: none;
+	font-size: 20px;
+}
+/* 去掉number的默认上下箭头 谷歌浏览器*/
+.context .commodity>div:nth-child(4) input::-webkit-outer-spin-button,
+.context .commodity>div:nth-child(4) input::-webkit-inner-spin-button{
+	-webkit-appearance: none !important;
+}
+/* 火狐浏览器 */
+.context .commodity>div:nth-child(4) input{
+	-moz-appearance: textfield;
+}
+.context .commodity>div:nth-child(5){
+	width: 10%;
+	height: 95%;
+	font-family: 隶书;
+	font-size: 25px;
+	color: red;
+}
+.context .commodity>div:nth-child(5) span{
+	position: relative;
+	float: left;
+	top: 50px;
+}
+.context .commodity>div:nth-child(6){
+	width: 10%;
+	height: 95%;
+}
+.context .commodity>div:nth-child(6) span{
+	position: relative;
+	float: left;
+	color: #6495ED;
+	margin: 15px 25px;
+	cursor: pointer;
+}
+.context .commodity>div:nth-child(6) span:first-child{
+	top: 22px;
+}
+
+/* #######################################################尾部 ###########################################*/
+ #foot {
+	position: relative;
+	float: left;
+ 	height: 70%;
+ 	text-align: center;
+	top:200px;
+ 	/*border: 1px solid red;*/
+ }
+ #foot_img{
+ 	height:13%;
+ 	width:100%;
+ 	/* border: 1px solid red; */
+ }
+ #foot_img img {
+ 	width: 100%;
+ 	height: 100%;
+ }
+ 
+ #foot_other {
+ 	position: relative;
+ 	height: 25%;
+ 	width: 60%;
+ 	left: 22%;
+	top: 8%;
+ 	/* border: 1px solid blue; */
+ }
+ 
+ #foot_other table {
+ 	height: 100%;
+ 	width: 100%;
+ }
+ 
+ #foot_other table thead {
+ 	font-size: 1.4em;
+ 	color: dimgrey;
+ }
+ 
+ #foot_other a {
+ 	text-decoration: none;
+ 	color: dimgrey;
+ }
+ 
+ #foot #foot_line{
+	position: relative;
+	top: 10%;
+ 	border: 1px solid grey;
+ 	background: gray;
+ }
+ #website_navigation {
+ 	position: relative;
+ 	width: 50%;
+ 	height:8%;
+ 	left: 25%;
+ 	top:12%;
+ 	margin-bottom: 5%;
+	/* border: 1px solid red; */
+ }
+ #website_navigation div {
+ 	position: relative;
+ 	float: left;
+ 	margin: 0px 5px;
+ }
+ 
+ #website_navigation img {
+ 	height: 15px;
+ 	width: 20px;
+ }
+ 
+ #website_navigation a {
+ 	text-decoration: none;
+ 	color: gray;
+ }
+ #logo{
+ 	width: 50%;
+ 	height: 12%;
+ 	position: relative;
+ 	left: 25%;
+ }
+ #logo img{
+ 	width: 100%;
+ 	height: 100%;
+ }
